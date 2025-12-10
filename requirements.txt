@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 FLask==3.2.3
+=======
+FLask==2.3.3
+>>>>>>> 0b195208ad2ba035ed0e651614fb2d63f192fb32
 langchain_google_genai==0.0.4
 gunicorn==20.1.0
 python-dotenv==1.0.0
