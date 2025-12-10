@@ -1,0 +1,8 @@
+{
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.guides.indentation": true,
+    "editor.overviewRulerBorder": true,
+    "window.border": "default",
+    "workbench.editor.splitInGroupLayout": "horizontal",
+    "editor.detectIndentation": true
+}
