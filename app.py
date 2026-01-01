@@ -12,9 +12,10 @@ def ai():
         user_msg=request.form.get("msg")
         model=ChatGoogleGenerativeAI(
         model="gemini-2.5-flash",
-        api_key=os.getenv("GOOGLE_API_KEY")
+        api_key=os.getenv("GOOGLE_API_KEY")                                
         )
         reply=model.invoke(user_msg).content
     return render_template("index.html",reply=reply,user_msg=user_msg)
 if __name__=="__main__":
     app.run()
+    
