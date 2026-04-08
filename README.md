@@ -1,4 +1,4 @@
-AI Chatbot Web App
+🤖 AI Chatbot Web App
 
 A simple AI-powered chatbot built using Python and a lightweight web framework. This project shows how to connect an AI API with a backend and display responses on a web page.
 
@@ -46,10 +46,11 @@ Run the App
 
 python app.py
 
-Open browser:
+URl will created
+click the follow link (e.g:http://127.0.0.1:5000)
 
-http://127.0.0.1:5000
-
+Then browser will opened :
+projects run on the browser
 ---
 
 How It Works
