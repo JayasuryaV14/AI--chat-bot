@@ -1,78 +1,103 @@
-🤖 AI Chatbot Web App
+AI Chatbot Web App
 
-A simple and interactive AI-powered chatbot built using Python and a lightweight web framework. This project demonstrates how to integrate a free AI API with a backend server and display real-time responses on a single-page web interface.
+A simple AI-powered chatbot built using Python and a lightweight web framework. This project shows how to connect an AI API with a backend and display responses on a web page.
 
-🚀 Features
-💬 Real-time chatbot interaction
-⚡ Fast response using external AI API
-🌐 Single-page responsive UI
-🧠 Backend powered by Python
-🔗 API integration for AI-generated replies
-☁️ Deployment-ready with Procfile
-🛠️ Tech Stack
-Frontend: HTML, JavaScript
-Backend: Flask
-API: Free AI API (OpenRouter / HuggingFace / Groq)
-Deployment: Compatible with platforms like Render / Heroku
-📁 Project Structure
-project/
-│
-├── templates/
-│   └── index.html      # Frontend UI
-│
-├── app.py              # Flask backend server
-├── Procfile            # Deployment configuration
-├── requirements.txt    # Python dependencies
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2️⃣ Install Dependencies
+---
+
+Features
+
+- Real-time chatbot interaction  
+- Fast response using AI API  
+- Simple responsive UI  
+- Python backend  
+- API integration  
+- Ready for deployment  
+
+---
+
+Tech Stack
+
+- Frontend: HTML, CSS, JavaScript  
+- Backend: Flask  
+- API: OpenRouter / HuggingFace / Groq  
+- Deployment: Render / Heroku / Railway  
+
+---
+
+Installation
+
+Install dependencies:
+
 pip install -r requirements.txt
-3️⃣ Add API Key
 
-Open app.py and replace:
+---
+
+API Key Setup
+
+Open `app.py` and replace:
 
 API_KEY = "your_api_key_here"
 
 with your actual API key.
 
-4️⃣ Run the Application
+---
+
+Run the App
+
 python app.py
 
-Open your browser and go to:
+Open browser:
 
 http://127.0.0.1:5000
-🔄 How It Works
-User enters a message in the chat interface
-The frontend sends the message to the Flask backend
-Backend calls the AI API
-AI response is received and sent back
-Chat UI updates dynamically
-☁️ Deployment
 
-This project includes a Procfile, making it ready for deployment on platforms like:
+---
 
-Render
-Heroku
-Railway
-📌 Future Enhancements
-🧾 Chat history storage
-🌙 Dark mode UI
-⌨️ Enter key support
-🔄 Loading animation
-🔐 Secure API key management using environment variables
-💼 Use Case
+How It Works
 
-This project is ideal for:
+1. User enters a message  
+2. Frontend sends it to backend  
+3. Backend calls AI API  
+4. Response is sent back  
+5. UI updates  
 
-Learning API integration
-Understanding client-server architecture
-Building beginner-friendly AI applications
-Showcasing in portfolio and placements
-🙌 Acknowledgements
-Free AI APIs for enabling chatbot functionality
-Open-source community for tools and inspiration
-📬 Contact
+---
 
-Feel free to connect or contribute to this project!
+Deployment
+
+You can deploy this project on:
+
+- Render  
+- Heroku  
+- Railway  
+
+---
+
+Future Improvements
+
+- Chat history  
+- Dark mode  
+- Enter key support  
+- Loading animation  
+- Secure API key using environment variables  
+
+---
+
+Use Case
+
+- Learn API integration  
+- Understand backend + frontend connection  
+- Beginner AI project  
+- Portfolio project  
+
+---
+
+Acknowledgements
+
+- Free AI APIs  
+- Open-source community  
+
+---
+
+Contact
+
+Feel free to contribute or connect!
